@@ -12,3 +12,10 @@ Se le quita estas lineas y se vuelve a recargar el proyecto maven
 			.collect(Collectors.groupingBy(Pelicula::getDirector));
 			
 			aplicar la solución que da el id (set lenguage java 8, bla bla..)
+			
+			
+			
+También borrar las demas carpetas y archivos y solo dejar src, test y el .txt y el pom
+
+
+Si ocurriera algún otro problema, se crea un proyecto maven nuevo, desde intellij al crear src y test nos da opciones, copiamos clases y pegamos las dependencias del pom
