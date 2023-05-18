@@ -1,0 +1,14 @@
+Se copia el pom de labdas and stream para que funcionen los ejerciciso
+
+Se le quita estas lineas y se vuelve a recargar el proyecto maven
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+	
+	en esta linea va a aparecer un error
+		public static Map<String, List<Pelicula>> PELIS_POR_DIRECTOR = Arrays.stream(TODAS)
+			.collect(Collectors.groupingBy(Pelicula::getDirector));
+			
+			aplicar la solución que da el id (set lenguage java 8, bla bla..)
